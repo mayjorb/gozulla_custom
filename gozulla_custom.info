@@ -1,0 +1,14 @@
+name = gozulla custom
+description = Provides general customizations for gozulla
+core = 7.x
+package = gozulla
+version = 7.x-1.0
+project = gozulla_custom
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = superfish
+dependencies[] = user
+dependencies[] = webform
+features[context][] = sitewide_blocks
+features[ctools][] = context:context:3
+features[features_api][] = api:1

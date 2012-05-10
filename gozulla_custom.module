@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the gozulla custom feature.
+ */
+
+include_once 'gozulla_custom.features.inc';
