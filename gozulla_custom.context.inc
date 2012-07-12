@@ -44,6 +44,12 @@ function gozulla_custom_context_default_contexts() {
           'region' => 'draw',
           'weight' => '-10',
         ),
+        'block-3' => array(
+          'module' => 'block',
+          'delta' => 3,
+          'region' => 'footer',
+          'weight' => '-10',
+        ),
       ),
     ),
   );
