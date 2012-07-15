@@ -32,21 +32,21 @@ function gozulla_custom_context_default_contexts() {
           'region' => 'top_navigation_bar',
           'weight' => '-10',
         ),
-        'user-login' => array(
-          'module' => 'user',
-          'delta' => 'login',
-          'region' => 'draw',
-          'weight' => '-10',
-        ),
         'webform-client-block-2528' => array(
           'module' => 'webform',
           'delta' => 'client-block-2528',
           'region' => 'draw',
           'weight' => '-10',
         ),
-        'block-3' => array(
-          'module' => 'block',
-          'delta' => 3,
+        'user-login' => array(
+          'module' => 'user',
+          'delta' => 'login',
+          'region' => 'draw',
+          'weight' => '-10',
+        ),
+        'menu-menu-footer-menu' => array(
+          'module' => 'menu',
+          'delta' => 'menu-footer-menu',
           'region' => 'footer',
           'weight' => '-10',
         ),
