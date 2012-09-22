@@ -26,28 +26,28 @@ function gozulla_custom_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'superfish-1' => array(
-          'module' => 'superfish',
-          'delta' => 1,
-          'region' => 'top_navigation_bar',
-          'weight' => '-10',
-        ),
-        'webform-client-block-2528' => array(
-          'module' => 'webform',
-          'delta' => 'client-block-2528',
-          'region' => 'draw',
-          'weight' => '-10',
-        ),
         'user-login' => array(
           'module' => 'user',
           'delta' => 'login',
           'region' => 'draw',
-          'weight' => '-10',
+          'weight' => '-38',
+        ),
+        'system-user-menu' => array(
+          'module' => 'system',
+          'delta' => 'user-menu',
+          'region' => 'draw',
+          'weight' => '-37',
+        ),
+        'block-9' => array(
+          'module' => 'block',
+          'delta' => '9',
+          'region' => 'draw',
+          'weight' => '-36',
         ),
         'menu-menu-footer-menu' => array(
           'module' => 'menu',
           'delta' => 'menu-footer-menu',
-          'region' => 'footer',
+          'region' => 'tertiary_content',
           'weight' => '-10',
         ),
       ),
